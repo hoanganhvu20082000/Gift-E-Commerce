@@ -1,0 +1,848 @@
+[
+  {
+    "productName": "Candles Outdoor Tshirt",
+    "price": 25,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế sản phẩm nằm trong bộ sưu tập chủ đề  OUTDOOR- là niềm cảm hứng về câu chuyện của mỗi chuyến đi, mỗi trải nghiệm.",
+        "description_2_3": "+, Chi tiết bảng kim loại logo thương hiệu đính kèm ở đuôi áo."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "tshirt",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20outdoor%20tshirt%2FShirt1.jpg?alt=media&token=ec9ecc67-1080-41a6-990a-c59233d14a28",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20outdoor%20tshirt%2FShirt2.jpg?alt=media&token=d7a7495c-9387-4a19-8feb-1a7dfee8b792",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20outdoor%20tshirt%2FShirt3.jpg?alt=media&token=6360fbf0-ebfe-4870-955c-829c175654a2",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20outdoor%20tshirt%2FShirt4.jpg?alt=media&token=b26cb29c-54f8-4b1d-b808-03e6d4ce3ff7"
+    },
+    "comment": [
+      {
+        "fiveStar": 2,
+        "commentFiveStar": [
+          {
+            "userComment": "long123",
+            "contentComment": "xinh dep tuyet voi",
+            "timeComment": "20 - 11 - 2022"
+          }, 
+          {
+            "userComment": "long345",
+            "contentComment": "qua dep",
+            "timeComment": "20 - 11 - 2022"
+          }
+        ]
+      }, 
+      {
+        "fourStar": 1,
+        "commentFourStar": [
+          {
+            "userComment": "long123",
+            "contentComment": "xinh dep tuyet voi",
+            "timeComment": "20 - 11 - 2022"
+          }
+        ]
+      }, 
+      {
+        "threeStar": 1,
+        "commentThreeStar": [
+          {
+            "userComment": "long345",
+            "contentComment": "qua dep",
+            "timeComment": "20 - 11 - 2022"
+          }
+        ]
+      }, 
+      {
+        "twoStar": 2,
+        "commentTwoStar": [
+          {
+            "userComment": "long123",
+            "contentComment": "xinh dep tuyet voi",
+            "timeComment": "20 - 11 - 2022"
+          }, 
+          {
+            "userComment": "long345",
+            "contentComment": "qua dep",
+            "timeComment": "20 - 11 - 2022"
+          }
+        ]
+      }, 
+      {
+        "oneStar": 0,
+        "commentOneStar": []
+      }
+    ],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Adventure Tshirt",
+    "price": 30,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": false
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+ Áo được thiết kế để sử dụng được cả mặt trong và ngoài.",
+        "description_2_3": "+, Chi tiết bảng kim loại logo thương hiệu đính kèm ở đuôi áo."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "tshirt",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20adventure%20tshirt%2FShirt1.jpg?alt=media&token=227752c3-b932-45e2-b994-2f4d82361038",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20adventure%20tshirt%2FShirt2.jpg?alt=media&token=051fc8b9-01cb-459c-995d-f95d9138090b",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20adventure%20tshirt%2FShirt3.jpg?alt=media&token=4b878244-0216-41a8-aa2e-d0b95690949a",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20adventure%20tshirt%2FShirt4.jpg?alt=media&token=54411ede-b52d-471c-8f44-8de821c610c4"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Byb Pocket Tshirt",
+    "price": 20,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": false
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Sản phẩm mang thiết kế phối cổ tạo cảm giác năng động, trẻ trung.",
+        "description_2_3": "+, Hình in logo thương hiệu được đặt tinh tế cùng túi ngực tạo thêm điểm nhấn cho chiếc tshirt bạn mang hằng ngày."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "tshirt",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20byb%20pocket%20tshirt%2FShirt1.jpg?alt=media&token=20625d73-3243-483b-b4e6-f6624501f4e6",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20byb%20pocket%20tshirt%2FShirt2.jpg?alt=media&token=21f60a15-19a1-4d42-8d47-7c67d46bb7b7",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20byb%20pocket%20tshirt%2FShirt3.jpg?alt=media&token=b1e2ac18-3ed0-4d09-9b83-ba34d1a8a7c8",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20byb%20pocket%20tshirt%2FShirt4.jpg?alt=media&token=76bd436e-3a52-454d-a653-674f30fd3666"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Holiday Tshirt",
+    "price": 39,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế sản phẩm nằm trong bộ sưu tập chủ đề  OUTDOOR- là niềm cảm hứng về câu chuyện của mỗi chuyến đi, mỗi trải nghiệm.",
+        "description_2_3": "+, Chi tiết bảng kim loại logo thương hiệu đính kèm ở đuôi áo."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "tshirt",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20holiday%20tshirt%2FShirt1.jpg?alt=media&token=b8cf3b39-3ca2-4cd5-aaae-3a5a1c2d7aac",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20holiday%20tshirt%2FShirt2.jpg?alt=media&token=2fe4bbbf-138f-4f07-bb3a-df7a6677dd75",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20holiday%20tshirt%2FShirt3.jpg?alt=media&token=a03234c8-42c7-4e3d-bb24-4591efb9eeea",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candles%20holiday%20tshirt%2FShirt4.jpg?alt=media&token=35358502-bcb6-4059-ab8b-428134e6ae7b"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Backyard Beach Tshirt",
+    "price": 45,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": false
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế sản phẩm nằm trong bộ sưu tập chủ đề  OUTDOOR- là niềm cảm hứng về câu chuyện của mỗi chuyến đi, mỗi trải nghiệm.",
+        "description_2_3": "+, Chi tiết bảng kim loại logo thương hiệu đính kèm ở đuôi áo."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "tshirt",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20tshirt%2FShirt1.jpg?alt=media&token=8362cf92-af5c-40a5-b86a-62aaa3793642",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20tshirt%2FShirt2.jpg?alt=media&token=cdc3173c-89d1-4fb3-8c05-f303a4f0bc71",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20tshirt%2FShirt3.jpg?alt=media&token=f9ddb6d5-69d2-47da-9036-05cdacb1490d",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20tshirt%2FShirt4.jpg?alt=media&token=22fecc76-e8cf-421b-9411-e529b912bb09"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Vintage Logo Hoodie",
+    "price": 60,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": false
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": true
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Nỉ chân cua.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Nỉ chân cua 400gsm.",
+        "description_2_3": "+, Thiết kế mũ khác màu áo, hình thêu và tape kim loại hoàn thiện."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "hoodie",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20logo%20hoodie%2Fshirt4.jpeg?alt=media&token=4822e5c5-5c2a-40a5-bd46-41652feb3086",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20logo%20hoodie%2Fshirt3.jpg?alt=media&token=f32d60c0-efe7-4d38-af8a-1834d531b022",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20logo%20hoodie%2Fshirt1.jpg?alt=media&token=1f358b25-aa59-4ece-907b-6383ee26c45a",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20logo%20hoodie%2Fshirt5.jpg?alt=media&token=eb4a47ee-4834-4d5c-ae18-660b6ff23ed0"
+    },
+    "comment": [],
+    "newArrival": false
+  },
+
+  {
+    "productName": "Candles Essential Hoodie",
+    "price": 50,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": false
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": true
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Nỉ chân cua",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Nỉ chân cua 380gsm.",
+        "description_2_3": "+, Áo có cúc ở mũ, hình thêu hoàn thiện mặt trước áo."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "hoodie",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20essential%20hoodie%2Fshirt1.jpg?alt=media&token=900db339-0018-464f-9275-e94b7b1efe9e",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20essential%20hoodie%2Fshirt2.jpg?alt=media&token=e6d52c78-5605-403a-9f1b-dd438ee294cb",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20essential%20hoodie%2Fshirt3.jpg?alt=media&token=d85fcb76-f95b-412d-af20-6d8c183f83c8",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20essential%20hoodie%2Fshirt1.jpg?alt=media&token=900db339-0018-464f-9275-e94b7b1efe9e"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Grayccale Varsity Jacket",
+    "price": 60,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: 100% Dạ.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Cúc kim loại cao cấp nhập khẩu.",
+        "description_2_3": "+, Bo đặt dệt riêng."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "shirt",
+    "classify": "jacket",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20grayscale%20varsity%20jacket%2Fshirt1.jpg?alt=media&token=5cc6bee0-7356-4cd4-a8f7-ddef0e611c63",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20grayscale%20varsity%20jacket%2Fshirt6.jpg?alt=media&token=b58785b0-5950-43ce-a4b7-e12e91528acc",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20grayscale%20varsity%20jacket%2Fshirt2.jpg?alt=media&token=e38d4751-2629-4a6c-9fc5-8ac2ed1f690c",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20grayscale%20varsity%20jacket%2Fshirt8.jpg?alt=media&token=72b66ed9-d16d-49e5-bfcc-4f1b60066489"
+    },
+    "comment": [],
+    "newArrival": false
+  },
+
+  {
+    "productName": "Candles Backyard Beach Short",
+    "price": 24,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Pattern Cotton.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế sản phẩm nằm trong bộ sưu tập chủ đề  BACKYARD BEACH - mang câu chuyện về những buổi chiều cùng anh em tại khu sân sau - nơi đầy nắng, gió và âm nhạc.",
+        "description_2_3": "+, Hình thêu mang logo thương hiệu trước quần."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "pants",
+    "classify": "short",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20short%2Fshort1.jpg?alt=media&token=f9d73aaf-99d6-4cc5-9f86-b309c25d3170",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20short%2Fshort2.jpg?alt=media&token=466d64cd-9c6d-4035-804a-8f14872db475",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20short%2Fshort3.jpg?alt=media&token=cd6b9881-a25a-42eb-bc08-44accaa8074c",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20backyard%20beach%20short%2Fshort4.jpg?alt=media&token=4c400d06-c9ca-433d-aec3-0b552f70dc3f"
+    },
+    "comment": [],
+    "newArrival": false
+  },
+
+  {
+    "productName": "Candles Cdls Short",
+    "price": 25,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Gió (chống nước tương đối).",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế sản phẩm nằm trong bộ sưu tập chủ đề  BACKYARD BEACH - mang câu chuyện về những buổi chiều chill cùng anh em tại khu sân sau - nơi đầy nắng, gió và âm nhạc.",
+        "description_2_3": "+, Hình in mang logo thương hiệu trước quần."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "pants",
+    "classify": "short",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20cdls%20short%2Fshort1.jpg?alt=media&token=775c82c5-117e-4712-a622-4a9861aa80e4",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20cdls%20short%2Fshort2.jpg?alt=media&token=ffcc6a62-5b5d-4322-9690-d55833a5edd8",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20cdls%20short%2Fshort4.jpg?alt=media&token=5f445e11-532c-4440-b8d7-bb6ad58884d2",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20cdls%20short%2Fshort1.jpg?alt=media&token=775c82c5-117e-4712-a622-4a9861aa80e4"
+    },
+    "comment": [],
+    "newArrival": true
+  },
+
+  {
+    "productName": "Candles Vintage Straight Jeans",
+    "price": 67,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": true
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Denim.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Thiết kế thuộc dòng sản phẩm CANDLES ESSENTIAL",
+        "description_2_3": "+, Chi tiết mài rách được đặt trên phần túi."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "pants",
+    "classify": "jeans",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20straight%20jeans%2Fpant1.jpg?alt=media&token=a6310434-58df-42de-b91f-c7e69698ae17",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20straight%20jeans%2Fpant2.jpg?alt=media&token=fd25f6ed-0620-4e5b-aa1e-27ec4feac0da",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20straight%20jeans%2Fpant3.jpg?alt=media&token=14d1791a-a593-4f58-8a1d-e41b2ded45d4",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20vintage%20straight%20jeans%2Fpant4.jpg?alt=media&token=8813fe7c-97ce-4ed5-91b3-cfed225f4c2a"
+    },
+    "comment": [],
+    "newArrival": false
+  },
+
+  {
+    "productName": "Candles Washed Double Knee Pant",
+    "price": 60,
+    "quantity": 30,
+    "size": [
+      {
+        "sizeName": "M", 
+        "isAvailable": true
+      }, 
+      {
+        "sizeName": "L", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "XL", 
+        "isAvailable": true
+      },
+      {
+        "sizeName": "2XL", 
+        "isAvailable": true
+      }
+    ], 
+    "color": [
+      {
+        "colorName": "white", 
+        "isAvailable": true
+      }, 
+      {
+        "colorName": "black", 
+        "isAvailable": true
+      },
+      {
+        "colorName": "gray",
+        "isAvailable": false
+      }, 
+      {
+        "colorName": "blue", 
+        "isAvailable": false
+      }
+    ], 
+    "description": {
+      "description_1": "✦ Chất liệu: Kaki.",
+      "description_2": {
+        "description_2_1": "✦ Chi tiết:",
+        "description_2_2": "+, Chất liệu Kaki 13oz đứng form.",
+        "description_2_3": "+, Thiết kế kết hợp đường may nổi tạo cảm giác mới mẻ."
+      },
+      "description_3": {
+        "description_3_1": "✦ Hướng dẫn bảo quản:",
+        "description_3_2": "+, Sản phẩm bền nhất khi giặt tay.",
+        "description_3_3": "+, Nếu giặt máy, hãy giặt ở nhiệt độ thường.",
+        "description_3_4": "+, Khi phơi tránh ánh nắng trực tiếp."
+      }
+    },
+    "category": "pants",
+    "classify": "kaki",
+    "imageUrl": {
+      "imageUrl01": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20washed%20double%20knee%20pants%2Fpant1.jpeg?alt=media&token=c103e563-d895-4faa-90b8-32069daef904",
+      "imageUrl02": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20washed%20double%20knee%20pants%2Fpant2.jpg?alt=media&token=a579b97f-065b-4bd1-a3c6-182482c43a4a",
+      "imageUrl03": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20washed%20double%20knee%20pants%2Fpant3.jpeg?alt=media&token=1a45c029-9378-4123-af03-47c247268951",
+      "imageUrl04": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Candle%20washed%20double%20knee%20pants%2Fpant4.jpeg?alt=media&token=644d6dd8-7167-4045-92f1-44dc7e9d5cbd"
+    },
+    "comment": [],
+    "newArrival": true
+  }
+]

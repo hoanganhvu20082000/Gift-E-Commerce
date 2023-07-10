@@ -1,0 +1,41 @@
+{
+  "image_banner": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/About%20us%2FaboutBanner.jpg?alt=media&token=4524182a-b3f9-41fb-b80b-1ce95ef8021a",
+  "information": [
+    {
+      "title": "Who We Are ?",
+      "text": "Contextual advertising programs sometimes have strict policies that need to be adhered too. Let’s take Google as an example."
+    },
+    {
+      "title": "What We Do ?",
+      "text": "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance."
+    },
+    {
+      "title": "Why Choose Us",
+      "text": "A two or three storey house is the ideal way to maximise the piece of earth on which our home sits, but for older or infirm people."
+    }
+  ],
+  "our_team": "Our Team",
+  "meet_our_team": "Meet Our Team",
+  "member": [
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/About%20us%2Fabout1.jpg?alt=media&token=4608bb90-1dcd-462b-a2d0-856766a27082",
+      "name": "John Smith",
+      "position": "Fashion Design"
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/About%20us%2Fabout2.jpg?alt=media&token=f6ad282e-385c-4e9a-815b-6aab9b6dcb06",
+      "name": "Christine Wise",
+      "position": "C.E.O"
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/About%20us%2Fabout3.jpg?alt=media&token=310d94f9-8f0b-4c3d-9cd7-0bc21c28d5c4",
+      "name": "Sean Robbins",
+      "position": "Manager"
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/About%20us%2Fabout4.jpg?alt=media&token=0592618b-bc38-4720-ad64-793acee20ece",
+      "name": "Lucy Myers",
+      "position": "Delivery"
+    }
+  ]
+}

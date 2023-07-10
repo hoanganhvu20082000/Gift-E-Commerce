@@ -1,0 +1,19 @@
+{
+    "banner": [
+        {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Home%20Banner%2Fbanner01.jpeg?alt=media&token=3de99e94-98e4-4ca4-a9ec-ad78cc879906", 
+            "collection": "2022 Summer Collection For Men", 
+            "description": "A brand-new products collection for 2022 summer"
+        },
+        {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Home%20Banner%2Fbanner02.png?alt=media&token=79d05591-2ea0-48d2-862b-183d9c3c7727", 
+            "collection": "2022 Summer Luxury Collection", 
+            "description": "The latest luxury collection in 2022 for gentlement"
+        },
+        {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/trent-alexander-arnold-ef59d.appspot.com/o/Home%20Banner%2Fbanner03.jpg?alt=media&token=206a0217-c7c3-4727-b8e5-9e0bada82797", 
+            "collection": "Office Collection For Men 2022", 
+            "description": "The office apparels collection for 2022"
+        }
+    ]
+}
