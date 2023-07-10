@@ -44,26 +44,62 @@ export const FILTER_USER_GROUP = [
 export const FILTER_CLASSIFY = [
   {
     name: "classify1",
-    value: ["Ngày phụ nữ"],
+    value: ["Tết"],
   },
   {
     name: "classify2",
-    value: ["Kỷ niệm ngày cưới"],
+    value: ["Tết Trung Thu"],
   },
   {
     name: "classify3",
-    value: ["Kỷ niệm ngày yêu"],
+    value: ["Giáng sinh"],
   },
   {
     name: "classify4",
-    value: ["Kỷ niệm ngày yêu", "Kỷ niệm ngày cưới"],
+    value: ["Ngày phụ nữ"],
   },
   {
     name: "classify5",
-    value: ["Tỏ tình"],
+    value: ["Ngày nhà giáo"],
   },
   {
     name: "classify6",
-    value: ["valentine"],
+    value: ["Ngày doanh nhân"],
+  },
+  {
+    name: "classify7",
+    value: ["Sinh nhật"],
+  },
+  {
+    name: "classify8",
+    value: ["Valentine"],
+  },
+  {
+    name: "classify9",
+    value: ["Ngày thiếu nhi"],
+  },
+  {
+    name: "classify10",
+    value: ["Tân gia"],
+  },
+  {
+    name: "classify11",
+    value: ["Ngày cưới"],
+  },
+  {
+    name: "classify12",
+    value: ["Đầy tháng"],
+  },
+  {
+    name: "classify13",
+    value: ["Thôi nôi"],
+  },
+  {
+    name: "classify14",
+    value: ["Ngày của cha"],
+  },
+  {
+    name: "classify15",
+    value: ["Ngày của mẹ"],
   },
 ];

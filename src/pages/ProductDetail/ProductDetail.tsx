@@ -40,8 +40,10 @@ export default function ProductDetail() {
   const allProduct = useAppSelector(dataProduct);
   const dispatch = useAppDispatch();
   const listFavoriteProduct = useAppSelector(listProductFavorite);
-  const finalFavoriteProduct = listFavoriteProduct?.flat(Infinity);
-
+  console.log("listFavoriteProduct", listFavoriteProduct);
+  const finalFavoriteProduct = !isEmpty(listFavoriteProduct)
+    ? listFavoriteProduct?.flat(Infinity)
+    : [];
   // SCROLL TOP
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -160,7 +162,6 @@ export default function ProductDetail() {
         price: productDetail.price,
         quantity: selectQuantity,
         color: selectedColor,
-        // size: selectedSize,
       };
       dispatch(cartActions.addCartStart(cartItem));
     }
@@ -180,25 +181,35 @@ export default function ProductDetail() {
   // THÊM SẢN PHẨM VÀO WISH-LIST
   const addToFavoriteList = useCallback(
     (e: any) => {
-      dispatch(
-        listFavoriteActions.addProductToFavoriteListStart(productDetail)
-      );
+      dataUser
+        ? dispatch(
+            listFavoriteActions.addProductToFavoriteListStart({
+              ...productDetail,
+              userId: dataUser.id,
+            })
+          )
+        : toast.warning("Cần đăng nhập để thêm vào Wish List");
     },
-    [dispatch, productDetail]
+    [dataUser, dispatch, productDetail]
   );
 
   // LẤY RA ID CỦA TẤT CẢ SẢN PHẨM TRONG WISH LIST
-  const checkId = finalFavoriteProduct.some(
-    (item: any) => item.id === currentIdProduct
-  );
+  const checkId = finalFavoriteProduct.some((item: any) => {
+    return currentIdProduct && item.id === +currentIdProduct;
+  });
 
   const removeFromFavoriteList = useCallback(
     (e: any) => {
-      dispatch(
-        listFavoriteActions.removeProductFromFavoriteStart(currentIdProduct)
-      );
+      dataUser
+        ? dispatch(
+            listFavoriteActions.removeProductFromFavoriteStart({
+              id: currentIdProduct,
+              userId: dataUser.id,
+            })
+          )
+        : toast.warning("Cần đăng nhập để xóa Wish List");
     },
-    [currentIdProduct, dispatch]
+    [currentIdProduct, dataUser, dispatch]
   );
 
   const renderImage = (item: any) => (
@@ -404,7 +415,7 @@ export default function ProductDetail() {
                   </div> */}
                 </div>
                 {/* MÔ TẢ SẢN PHẨM */}
-                <div className="mt-[40px]">
+                <div className="mt-[40px] pr-[50px]">
                   <div className="font-semibold">{t("common:description")}</div>
                   <div className="flex flex-col">
                     <span

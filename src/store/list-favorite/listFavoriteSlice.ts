@@ -19,6 +19,19 @@ const listFavoriteSlice = createSlice({
   name: "favorite",
   initialState,
   reducers: {
+    fetchFavoriteListStart(state, actions: PayloadAction<any>) {
+      state.fetching = true;
+      state.error = false;
+    },
+    fetchFavoriteListSuccess(state, actions: PayloadAction<any>) {
+      state.fetching = false;
+      state.listFavoriteProduct = actions.payload;
+      state.error = false;
+    },
+    fetchFavoriteListFailed(state) {
+      state.fetching = false;
+      state.error = true;
+    },
     addProductToFavoriteListStart(state, action: PayloadAction<any>) {
       state.fetching = true;
       state.listFavoriteItems = action.payload;
@@ -26,7 +39,10 @@ const listFavoriteSlice = createSlice({
     },
     addProductToFavoriteListSuccess(state, action: PayloadAction<any>) {
       state.fetching = false;
-      state.listFavoriteProduct = [...state.listFavoriteProduct, action.payload];
+      state.listFavoriteProduct = [
+        ...state.listFavoriteProduct,
+        action.payload,
+      ];
       state.error = false;
     },
     addProductToFavoriteListFailed(state) {
@@ -50,6 +66,9 @@ const listFavoriteSlice = createSlice({
       state.fetching = false;
       state.error = true;
     },
+    clearFavoriteFailed(state) {
+      state.listFavoriteProduct = [];
+    },
   },
 });
 
@@ -61,4 +80,5 @@ const listFavoriteReducer = listFavoriteSlice.reducer;
 export default listFavoriteReducer;
 
 // EXPORT SELECTOR
-export const listProductFavorite = (state: RootState) => state.favorite.listFavoriteProduct;
+export const listProductFavorite = (state: RootState) =>
+  state.favorite.listFavoriteProduct;

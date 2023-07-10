@@ -18,6 +18,7 @@ import PrivateRoute from "./routes/PrivateRoute";
 import Search from "./pages/Search/Search";
 import WishList from "./pages/Whislist/Whislist";
 import AdminPage from "./pages/AdminPage";
+import AdminRoute from "./routes/AdminRoute";
 
 function App() {
   return (
@@ -85,7 +86,14 @@ function App() {
             <Route path="register" element={<Register />} />
             <Route path="login" element={<Login />} />
             <Route path="forgot-password" element={<ForgotPassword />} />
-            <Route path="admin" element={<AdminPage />} />
+            <Route
+              path="admin"
+              element={
+                <AdminRoute>
+                  <AdminPage />
+                </AdminRoute>
+              }
+            />
           </Routes>
         </Suspense>
       </div>

@@ -3,10 +3,13 @@ import {
   AreaChartOutlined,
   ShoppingCartOutlined,
   UserOutlined,
+  HomeOutlined,
 } from "@ant-design/icons";
 import { MenuProps } from "antd";
 import { Breadcrumb, Layout, Menu, theme } from "antd";
 import RenderTable from "./RenderTable";
+
+import { useNavigate } from "react-router-dom";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -27,6 +30,7 @@ function getItem(
 }
 
 const items: MenuItem[] = [
+  getItem("Home", "home", <HomeOutlined />),
   getItem("Products", "products", <AreaChartOutlined />),
   getItem("Users", "users", <UserOutlined />),
   getItem(
@@ -38,7 +42,6 @@ const items: MenuItem[] = [
     getItem("Success", "order/success"),
   ] */
   ),
-  // getItem("Files", "9", <FileOutlined />),
 ];
 
 const AdminPage: React.FC = () => {
@@ -48,6 +51,7 @@ const AdminPage: React.FC = () => {
   } = theme.useToken();
 
   const [selectedItem, setSelectedItem] = useState("products");
+  const history = useNavigate();
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
@@ -63,6 +67,9 @@ const AdminPage: React.FC = () => {
           mode="inline"
           items={items}
           onClick={({ key }) => {
+            if (key === "home") {
+              history("/");
+            }
             setSelectedItem(key);
           }}
         />

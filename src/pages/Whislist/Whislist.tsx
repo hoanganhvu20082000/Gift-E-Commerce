@@ -1,17 +1,34 @@
 import { useNavigate } from "react-router-dom";
-import { listProductFavorite } from "../../store/list-favorite/listFavoriteSlice";
+import { listFavoriteActions } from "../../store/list-favorite/listFavoriteSlice";
 import { useAppSelector } from "../../store/hooks/hooks";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { uniqBy } from "lodash";
+import { useDispatch } from "react-redux";
+import { token } from "../../store/auth/authSlice";
+import wishList from "../../api/wishListApi";
 
 export default function WishList() {
   const navigate = useNavigate();
-  const listFavoriteProduct = useAppSelector(listProductFavorite);
-  const listFavorite = uniqBy(listFavoriteProduct, "id");
+  const dispatch = useDispatch();
+  const [listFavorite, setListFavorite] = useState([]);
+
+  const user = useAppSelector(token);
+
+  // const listFavoriteProduct = useAppSelector(listProductFavorite);
+  // const listFavorite = uniqBy(listFavoriteProduct, "id");
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, []);
+    dispatch(listFavoriteActions.fetchFavoriteListStart(user.id));
+    (async () => {
+      try {
+        const res = await wishList.fetchWishList(user.id);
+        setListFavorite(res);
+      } catch (err) {
+        console.log(err);
+      }
+    })();
+  }, [dispatch, user.id]);
 
   return (
     <>
@@ -22,7 +39,7 @@ export default function WishList() {
           </div>
         ) : (
           <div className="mt-[48px] block md:grid md:grid-rows-2 md:grid-cols-2 xl:grid-rows-2 xl:grid-cols-4 gap-[18px]">
-            {listFavorite?.map((product: any) => (
+            {uniqBy(listFavorite, "id")?.map((product: any) => (
               <div
                 className="px-[12px] mb-[20px] cursor-pointer relative test-hover-block"
                 key={product.id}

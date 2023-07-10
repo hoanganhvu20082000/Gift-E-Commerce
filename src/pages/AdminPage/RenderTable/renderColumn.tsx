@@ -10,6 +10,8 @@ import {
   Divider,
   Tag,
 } from "antd";
+import CircleIcon from "@mui/icons-material/Circle";
+
 import TextArea from "antd/es/input/TextArea";
 
 export const renderColumnUsers = [
@@ -167,7 +169,11 @@ export const renderColumnOrder = (data: any) => [
                         </Divider>
                         <Divider orientation="left">
                           {" "}
-                          Màu sắc: <Tag color={item.color}>{item.color}</Tag>
+                          Màu sắc:{" "}
+                          <CircleIcon
+                            className={"circle-style"}
+                            sx={{ color: `${item.color}`, fontSize: "26px" }}
+                          />
                         </Divider>
                         <Divider orientation="left">
                           {" "}

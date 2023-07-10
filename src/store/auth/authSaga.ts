@@ -45,17 +45,6 @@ function* handleLogOut() {
     localStorage.clear();
     yield delay(1000);
     yield put(logOutSuccess());
-    yield put(push("/login"));
-    toast("🦄 Đăng xuất thành công!", {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: false,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
   } catch (err) {
     yield put(logOutFailed());
     toast("🦄 Đăng xuất thất bại! Vui lòng kiểm tra lại kết nối", {

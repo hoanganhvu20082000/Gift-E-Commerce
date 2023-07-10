@@ -33,7 +33,7 @@ export default function NewProduct() {
     <>
       <div className="container mx-auto">
         <div className="flex justify-center px-[12px] pb-[20px]">
-          <span className="text-[30px]">Quà mới</span>
+          <span className="text-[30px]">Quà mới về</span>
         </div>
         <div className="block md:grid md:grid-rows-2 md:grid-cols-2 xl:grid-rows-2 xl:grid-cols-4 gap-[18px]">
           {filterProduct?.map((product: any) => {
@@ -79,7 +79,6 @@ export default function NewProduct() {
             );
           })}
         </div>
-        <CustomerService />
         <div className="  xl:flex justify-center my-[30px]">
           <img
             src={
@@ -88,6 +87,7 @@ export default function NewProduct() {
             alt=""
           />
         </div>
+        <CustomerService />
       </div>
     </>
   );

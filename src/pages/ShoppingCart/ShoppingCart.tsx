@@ -10,6 +10,7 @@ import _ from "lodash";
 import { useAppDispatch } from "../../store/hooks/hooks";
 import { cartActions } from "../../store/cart/cartSlice";
 import { Tag } from "antd";
+import CircleIcon from "@mui/icons-material/Circle";
 
 export default function ShoppingCart() {
   const { t } = useTranslation(["order", "common"]);
@@ -80,18 +81,13 @@ export default function ShoppingCart() {
                               {data.product_name}
                             </p>
                             <p className="text-[16px] pb-[16px]">
-                              {
-                                <Tag
-                                  color={data.color}
-                                  style={
-                                    data.color === "#FFFFFF"
-                                      ? { color: "black", border: "1px solid" }
-                                      : undefined
-                                  }
-                                >
-                                  {data.color}
-                                </Tag>
-                              }
+                              <CircleIcon
+                                className={"circle-style"}
+                                sx={{
+                                  color: `${data.color}`,
+                                  fontSize: "26px",
+                                }}
+                              />
                             </p>
                             <p className="text-[18px] font-semibold">
                               {data.price} VNĐ
@@ -119,7 +115,7 @@ export default function ShoppingCart() {
                         </div>
                       </td>
                       <td className="table-cell py-[30px] text-right font-semibold text-[18px] w-[140px]">
-                        ${data.quantity * data.price}
+                        {data.quantity * data.price} VNĐ
                       </td>
                       <td className="w-[170px] table-cell py-[30px] text-right">
                         <div className="flex justify-center items-center text-center">

@@ -32,9 +32,8 @@ export default function Search() {
   }, [searchString]);
 
   const resultSearch = dataSearchByName?.data;
-
-  console.log("dataSearchByName: ", dataSearchByName?.data);
   console.log("resultSearch", resultSearch);
+
   return (
     <>
       {loading && <Loading />}
@@ -60,14 +59,18 @@ export default function Search() {
                   navigate(`/products/${product.id}`);
                 }}
               >
-                <img className="" src={product.image_url[0]} alt="Product1" />
+                <img
+                  className=""
+                  src={product.image_url[0].url}
+                  alt="Product1"
+                />
                 <div className="pt-[20px]">
                   <div className="text-[16px] font-bold mb-[16px]">
                     {product.name}
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-[20px] font-semibold">
-                      {product.price}$
+                      {product.price} VNĐ
                     </span>
                   </div>
                 </div>

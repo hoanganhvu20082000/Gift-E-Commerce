@@ -7,8 +7,6 @@ const ListColorPicker = (props: any) => {
   const [tags, setTags] = useState(props.value || []);
   const [inputVisible, setInputVisible] = useState(false);
   const [inputValue, setInputValue] = useState("");
-  //   const [editInputIndex, setEditInputIndex] = useState(-1);
-  //   const [editInputValue, setEditInputValue] = useState("");
   const inputRef = useRef<InputRef>(null);
   const editInputRef = useRef<InputRef>(null);
 
@@ -28,10 +26,6 @@ const ListColorPicker = (props: any) => {
     setTags(newTags);
   };
 
-  //   const showInput = () => {
-  //     setInputVisible(true);
-  //   };
-
   const handleInputChange = (color: any) => {
     if (tags.indexOf(inputValue) === -1) {
       setTags([...tags, color.toHexString()]);
@@ -39,23 +33,6 @@ const ListColorPicker = (props: any) => {
     setInputVisible(false);
     setInputValue("");
   };
-
-  //   const handleEditInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //     setEditInputValue(e.target.value);
-  //   };
-
-  //   const handleEditInputConfirm = () => {
-  //     const newTags = [...tags];
-  //     newTags[editInputIndex] = editInputValue;
-  //     setTags(newTags);
-  //     setEditInputIndex(-1);
-  //     setInputValue("");
-  //   };
-
-  //   const tagInputStyle: React.CSSProperties = {
-  //     width: 78,
-  //     verticalAlign: "top",
-  //   };
 
   const tagPlusStyle: React.CSSProperties = {
     borderStyle: "dashed",
@@ -68,7 +45,7 @@ const ListColorPicker = (props: any) => {
           const tagElem = (
             <Tag
               key={tag}
-              closable={index !== 0}
+              closable={true}
               color={tag}
               onClose={() => handleClose(tag)}
               closeIcon={
@@ -78,13 +55,13 @@ const ListColorPicker = (props: any) => {
                   }}
                 />
               }
-              style={tag === "white" ? { color: "black" } : undefined}
+              style={{
+                border: "1px solid black",
+              }}
             >
               <span
                 onDoubleClick={(e) => {
-                  if (index !== 0) {
-                    e.preventDefault();
-                  }
+                  e.preventDefault();
                 }}
               >
                 {tag}

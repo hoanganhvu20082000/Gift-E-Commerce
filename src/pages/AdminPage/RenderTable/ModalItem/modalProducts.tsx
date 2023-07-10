@@ -2,8 +2,9 @@ import { Form, Input, InputNumber, Modal, Upload } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
 
 import TextArea from "antd/es/input/TextArea";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ListColorPicker from "./colorPicker";
+import MutipleItems from "./multipleItems";
 import { storageRef } from "../../../../firebase.js";
 import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
 import productApi from "../../../../api/productApi";
@@ -19,7 +20,6 @@ const ModalItem = (props: any) => {
     wrapperCol: { span: 16 },
   };
   const initialValue = {
-    id: detail.id,
     name: "",
     description: "",
   };
@@ -37,6 +37,9 @@ const ModalItem = (props: any) => {
     form.setFieldValue("price", detail?.price || 0);
     form.setFieldValue("color", detail?.color || []);
     form.setFieldValue("image_url", detail?.image_url || []);
+    form.setFieldValue("classify", detail?.classify || []);
+    form.setFieldValue("user_group", detail?.user_group || []);
+    form.setFieldValue("quantity", detail?.quantity || 0);
   }, [detail, form]);
 
   const normFile = (e: any) => {
@@ -63,12 +66,22 @@ const ModalItem = (props: any) => {
         form={form}
         preserve={false}
         onFinish={async (val) => {
-          await productApi.updateProductById(detail.id, val);
+          if (detail) {
+            await productApi.updateProductById(detail.id, val);
+          } else {
+            await productApi.createProduct(val);
+          }
           handleOk();
         }}
       >
         <Form.Item name={"name"} label={"Name"}>
           <Input />
+        </Form.Item>
+        <Form.Item name={"classify"} label={"Classify"}>
+          <MutipleItems name={"classify"} />
+        </Form.Item>
+        <Form.Item name={"user_group"} label={"User Group"}>
+          <MutipleItems name={"user_group"} />
         </Form.Item>
         <Form.Item name={"description"} label={"Description"}>
           <TextArea />
@@ -128,6 +141,9 @@ const ModalItem = (props: any) => {
         </Form.Item>
         <Form.Item name={"price"} label={"Price"}>
           <InputNumber addonAfter={"VND"} />
+        </Form.Item>
+        <Form.Item name={"quantity"} label={"Quantity"}>
+          <InputNumber />
         </Form.Item>
         <Form.Item name={"color"} label={"Color"}>
           <ListColorPicker />

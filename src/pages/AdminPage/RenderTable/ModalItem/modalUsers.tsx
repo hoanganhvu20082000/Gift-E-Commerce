@@ -2,6 +2,7 @@ import { Form, Input, Modal, Switch } from "antd";
 
 import TextArea from "antd/es/input/TextArea";
 import { useEffect } from "react";
+import userApi from "../../../../api/userApi";
 
 const ModalOrders = (props: any) => {
   const { isModalOpen, handleOk, handleCancel, detail } = props;
@@ -26,10 +27,15 @@ const ModalOrders = (props: any) => {
     form.setFieldValue("createdAt", detail?.createdAt);
     form.setFieldValue("admin", detail?.admin);
   }, [detail, form]);
+
+  const onOk = () => {
+    form.submit();
+  };
+
   return (
     <Modal
       open={isModalOpen}
-      onOk={handleOk}
+      onOk={onOk}
       onCancel={handleCancel}
       width={800}
       centered
@@ -40,6 +46,12 @@ const ModalOrders = (props: any) => {
         initialValues={initialValue}
         form={form}
         preserve={false}
+        onFinish={async (val) => {
+          if (detail) {
+            await userApi.updateUser(detail.id, val);
+          }
+          handleOk();
+        }}
       >
         <Form.Item name={"email"} label={"Email"}>
           <Input />

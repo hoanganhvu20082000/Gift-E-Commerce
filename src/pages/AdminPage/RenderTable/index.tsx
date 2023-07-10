@@ -2,6 +2,7 @@ import { Table, Button, Spin } from "antd";
 import {
   dataProduct,
   fetchProductListStart,
+  fetchingProduct,
 } from "../../../store/product/productSlice";
 import { useAppDispatch, useAppSelector } from "../../../store/hooks/hooks";
 import { useEffect, useState } from "react";
@@ -23,11 +24,11 @@ const RenderTable = (props: any) => {
   const currentData = useAppSelector(dataProduct);
   const allUser = useAppSelector(userSelector);
   const allOrder = useAppSelector(getOrder);
+  const fetching = useAppSelector(fetchingProduct);
   const [isModalProducts, setIsModalProducts] = useState(false);
   const [isModalUsers, setIsModalUsers] = useState(false);
   const [isModalOrder, setIsModalOrder] = useState(false);
   const [detailItem, setDetailItem] = useState({});
-  const [loading, setLoading] = useState(true);
   const [isEdit, setIsEdit] = useState(false);
 
   const showModal = (val: any) => {
@@ -54,8 +55,10 @@ const RenderTable = (props: any) => {
     setIsModalProducts(false);
     setIsModalUsers(false);
     setIsModalOrder(false);
-    setLoading(true);
     setIsEdit(false);
+    dispatch(fetchProductListStart());
+    dispatch(getAllUserStart());
+    dispatch(fetchOrdersStart());
   };
 
   const handleCancel = () => {
@@ -94,14 +97,13 @@ const RenderTable = (props: any) => {
     dispatch(fetchProductListStart());
     dispatch(getAllUserStart());
     dispatch(fetchOrdersStart());
-    setLoading(false);
-  }, [dispatch, loading]);
+  }, [dispatch]);
 
-  return loading ? (
+  return fetching ? (
     <Spin />
   ) : (
     <div>
-      {["products", "users"].includes(selectedItem) && (
+      {selectedItem === "products" && (
         <Button
           style={{
             marginBottom: "10px",
