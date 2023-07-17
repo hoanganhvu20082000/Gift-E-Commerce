@@ -19,7 +19,12 @@ import jwt_decode from "jwt-decode";
 function* handleLogin(user: LoginForm) {
   try {
     const { data } = yield call(userApi.login, user);
-    const token = jwt_decode(data);
+    const token: any = jwt_decode(data);
+    if (!token.active) {
+      yield put(loginFailed());
+      toast("Tài khoản bị khóa, vui lòng liên hệ admin để biết thêm chi tiết");
+      return;
+    }
     yield put(loginSuccess(token));
     yield delay(1000);
     yield put(push("/"));

@@ -7,7 +7,7 @@ import "swiper/css/bundle";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import RelatedProduct from "../../components/ChildrenProduct/RelatedProduct/RelatedProduct";
 // import FeedBack from "../../components/ChildrenProduct/FeedBack/FeedBack";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import productApi from "../../api/productApi";
 import LoadingModal from "../../components/Loading/Loading";
 import { useTranslation } from "react-i18next";
@@ -22,7 +22,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import { listFavoriteActions } from "../../store/list-favorite/listFavoriteSlice";
 import { listProductFavorite } from "../../store/list-favorite/listFavoriteSlice";
 import { dataProduct } from "../../store/product/productSlice";
-import { Watermark } from "antd";
+import { Button, Empty, Watermark } from "antd";
 import { isEmpty } from "lodash";
 
 export default function ProductDetail() {
@@ -40,10 +40,10 @@ export default function ProductDetail() {
   const allProduct = useAppSelector(dataProduct);
   const dispatch = useAppDispatch();
   const listFavoriteProduct = useAppSelector(listProductFavorite);
-  console.log("listFavoriteProduct", listFavoriteProduct);
   const finalFavoriteProduct = !isEmpty(listFavoriteProduct)
     ? listFavoriteProduct?.flat(Infinity)
     : [];
+  const history = useNavigate();
   // SCROLL TOP
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -219,7 +219,7 @@ export default function ProductDetail() {
   return (
     <>
       {loading && <LoadingModal />}
-      {productDetail && !isEmpty(productDetail) && (
+      {productDetail && productDetail.active && !isEmpty(productDetail) ? (
         <div className="lg:pt-[10px]">
           <div className="container mx-auto px-[12px]">
             <div className="block xl:flex xl:gap-[50px]">
@@ -477,6 +477,20 @@ export default function ProductDetail() {
 
             {/* ĐÁNH GIÁ */}
             {/* {productDetail && <FeedBack productDetail={productDetail} />} */}
+          </div>
+        </div>
+      ) : (
+        <div className="lg:pt-[100px]">
+          <div className="container mx-auto px-[12px]">
+            <Empty description={"Không tìm thấy sản phẩm"}>
+              <Button
+                onClick={() => {
+                  history("/");
+                }}
+              >
+                Quay lại trang chủ{" "}
+              </Button>
+            </Empty>
           </div>
         </div>
       )}

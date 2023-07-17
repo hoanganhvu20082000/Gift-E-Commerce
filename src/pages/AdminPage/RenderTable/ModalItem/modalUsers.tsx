@@ -26,6 +26,7 @@ const ModalOrders = (props: any) => {
     form.setFieldValue("user_name", detail?.user_name);
     form.setFieldValue("createdAt", detail?.createdAt);
     form.setFieldValue("admin", detail?.admin);
+    form.setFieldValue("active", detail?.active);
   }, [detail, form]);
 
   const onOk = () => {
@@ -58,6 +59,9 @@ const ModalOrders = (props: any) => {
         </Form.Item>
         <Form.Item name={"user_name"} label={"User name"}>
           <TextArea />
+        </Form.Item>
+        <Form.Item name={"active"} label={"Active"} valuePropName="checked">
+          <Switch />
         </Form.Item>
         <Form.Item name={"admin"} label={"Admin"} valuePropName="checked">
           <Switch />

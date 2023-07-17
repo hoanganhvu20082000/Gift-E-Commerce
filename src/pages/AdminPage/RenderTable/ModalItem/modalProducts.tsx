@@ -1,4 +1,4 @@
-import { Form, Input, InputNumber, Modal, Upload } from "antd";
+import { Form, Input, InputNumber, Modal, Switch, Upload } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
 
 import TextArea from "antd/es/input/TextArea";
@@ -40,6 +40,7 @@ const ModalItem = (props: any) => {
     form.setFieldValue("classify", detail?.classify || []);
     form.setFieldValue("user_group", detail?.user_group || []);
     form.setFieldValue("quantity", detail?.quantity || 0);
+    form.setFieldValue("active", detail?.active || false);
   }, [detail, form]);
 
   const normFile = (e: any) => {
@@ -74,6 +75,9 @@ const ModalItem = (props: any) => {
           handleOk();
         }}
       >
+        <Form.Item name={"active"} label={"Active"} valuePropName="checked">
+          <Switch />
+        </Form.Item>
         <Form.Item name={"name"} label={"Name"}>
           <Input />
         </Form.Item>

@@ -19,7 +19,11 @@ export default function NewProduct() {
     dispatch(fetchProductListStart());
   }, [dispatch]);
   const currentData = useAppSelector(dataProduct);
-  const filterProduct = orderBy(currentData, "createdAt", "desc").slice(0, 12);
+  const filterProduct = orderBy(
+    currentData?.filter((i: any) => i.active),
+    "createdAt",
+    "desc"
+  ).slice(0, 12);
   const navigate = useNavigate();
   const { t } = useTranslation(["common"]);
 

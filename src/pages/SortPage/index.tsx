@@ -107,7 +107,7 @@ export default function SortPage() {
         })
       );
 
-      return filterUserGroup && filterClassify && item;
+      return filterUserGroup && filterClassify && item && item.active;
     });
   }, [filterByClassify, newProduct, sortValues]);
 

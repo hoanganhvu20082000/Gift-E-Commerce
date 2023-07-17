@@ -57,6 +57,7 @@ export default function Header() {
     const { token } = persist;
     if (!!token) {
       JSON.parse(token)?.exp < Date.now() / 1000 && handleLogout();
+      !JSON.parse(token)?.active && handleLogout();
     }
     if (language?.length > 2) {
       i18next.changeLanguage("en");
